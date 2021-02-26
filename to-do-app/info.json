@@ -1,3 +1,9 @@
 {
-  "list": []
+  "list": [
+    {
+      "id": 4,
+      "task": "complete",
+      "complete": true
+    }
+  ]
 }

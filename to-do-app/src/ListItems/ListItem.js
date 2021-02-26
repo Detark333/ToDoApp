@@ -19,8 +19,10 @@ const ListItems = () => {
         toDoList.map((item) =>{
             return <Item key={item.id}
                          onDelete={()=>{
-                             ToDoApi.delete(item.id).then(res => console.log(res))
-                             ToDoApi.list().then(res => {console.log(res); setToDoList(res)})
+                             ToDoApi.delete(item.id).then(res => {
+                                 console.log(res);
+                                 ToDoApi.list().then(res => {console.log(res); setToDoList(res)})
+                             })
                          }
             }/>
         })
