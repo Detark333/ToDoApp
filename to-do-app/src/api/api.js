@@ -18,14 +18,14 @@ export const ToDoApi = {
             })
             .then(res => res.data)
     },
-    delete(id){
+    delete(id) {
         return instance
             .delete(`list/${id}`, {
                 id
             })
             .then(res => res.data)
     },
-    update(id, task, complete){
+    update(id, task, complete) {
         return instance
             .patch(`list/${id}`, {
                 task, complete

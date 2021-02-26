@@ -1,15 +1,15 @@
-.inputDiv{
+.inputDiv {
     display: flex;
     justify-content: space-between;
 }
 
-.button{
+.button {
     height: 55px;
     width: 150px;
     color: #00b300;
     border-color: #00b300;
 }
 
-.input{
+.input {
     width: 400px;
 }
