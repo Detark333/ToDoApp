@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import container from './Container.module.css';
-import ListItems from "../ListItems/ListItem";
+import ListItems from "../ListItems";
 import {ToDoApi} from "../api/api";
 
 const onSubmitHandler = (task) => {

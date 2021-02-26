@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from '@material-ui/core/Container';
-import ContainerLayout from "./Container/ContainerLayout";
+import ContainerLayout from "./Container";
 
 function App() {
     return (

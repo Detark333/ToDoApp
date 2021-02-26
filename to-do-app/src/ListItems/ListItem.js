@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import Item from "../Item/Item";
+import Item from "../Item";
 import {ToDoApi} from "../api/api";
 import CircularProgress from '@material-ui/core/CircularProgress';
 
