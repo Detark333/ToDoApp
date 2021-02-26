@@ -1,0 +1,18 @@
+.mainDiv{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    display: inline-flex;
+    align-items: center;
+}
+
+.clear{
+    color: red;
+}
+.clear:hover{
+    cursor: pointer;
+}
